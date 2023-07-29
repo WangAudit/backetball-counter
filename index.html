@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="board">
+            <div class="score">
+                <h1>Home</h1>
+                <div class="points" id="home">
+                    00
+                </div>
+                <div class="buttons">
+                    <button onclick="onepoint()">+1</button>
+                    <button onclick="twopoints()">+2</button>
+                    <button onclick="threepoints()">+3</button>
+                </div>
+                <button class="buttons" onclick="restart()">Restart</button>
+            </div>
+            <div class="score">
+                <h1>Guest</h1>
+                <div class="points" id="guest">
+                    00
+                </div>
+                <div class="buttons">
+                    <button onclick="onepointG()">+1</button>
+                    <button onclick="twopointsG()">+2</button>
+                    <button onclick="threepointsG()">+3</button>
+                </div>
+                <button class="buttons" onclick="restart()">Restart</button>
+            </div>
+        </div>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
